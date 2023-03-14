@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgba(209, 210, 211, 0.966);
+}
+.container{
+    display: flex;
+    border: 3px solid;
+    border-color: black;
+    width: fit-content;
+}
+.card{
+    background-color: white;
+    margin: 10px;
+    padding: 20px;
+}
+.card img{
+    width: 200px;
+    height: 250px;
+    margin: 20px 0 20px 0;
+    object-fit: cover;
+}
+.card p{
+    color: #007185;
+    cursor: pointer;
+}
+.card p:hover{
+    text-decoration: underline;
+    color: #C7511F;
+}
